@@ -128,7 +128,7 @@ def display_decryption_key(key):
     print("\nIMPORTANT: Save this key securely for future decryption!")
 
 def main():
-    # Use the user's home directory
+    # home directory
     home_directory = os.path.expanduser("~")
 
     # Determine the desktop path in a platform-independent way

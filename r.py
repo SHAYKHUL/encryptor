@@ -20,7 +20,7 @@ def derive_key(password, salt):
     # Derive a key from a password using PBKDF2
     kdf = PBKDF2HMAC(
         algorithm=hashes.SHA256(),
-        iterations=100000,  # Adjust this based on your security requirements
+        iterations=100000,
         length=32,
         salt=salt,
         backend=default_backend()
